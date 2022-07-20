@@ -1,3 +1,8 @@
+* {
+    color: rgb(0, 0, 102);
+    font-family: -moz-fixed;
+}
+
 .box {
     padding-top: -10px;
     border-color: black;
@@ -5,6 +10,7 @@
     text-align: center;
 
 }
+
 .month-box {
     background-color: rgb(204, 204, 255);
     padding-bottom: 3%;
@@ -41,7 +47,7 @@ ul {
 
 }
 
-li{
+li {
     width: 75vw;
 
 }
@@ -51,24 +57,61 @@ li{
     height: 97.5vh;
 }
 
-p {
+h1 {
+    font-size: 100px;
+    color: rgb(0, 0, 102);
+    font-family: -moz-fixed;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-left: 4%;
+}
 
+p {
+    color: rgb(0, 0, 102);
+    font-family: -moz-fixed;
+    font-size: 25px;
 }
 
 
 table {
     padding-top: 5%;
     padding-left: 6%;
+    border: none;
 
 }
 
-tr, th, td {
+td {
     height: 8vh;
     width: 8.5vw;
-    border: 3px solid black;
+    border: none;
+    background-color: rgb(230, 230, 255);
 
 }
 
-button {
-    height: 3%;
+td:hover {
+    background-color: rgb(153, 153, 255);
+}
+
+.empty {
+    background-color: rgb(242, 242, 242);
+}
+
+th {
+    border: none;
+    background-color: rgb(242, 242, 242);
+    padding-bottom: 2%;
+}
+.ul-people {
+    width: 10vw;
+}
+
+.li-people {
+    width: 10vw;
+    margin-left: -20%;
+}
+.img-profile {
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 80px;
+
 }
