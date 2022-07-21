@@ -110,8 +110,25 @@ th {
     margin-left: -20%;
 }
 .img-profile {
-    width: 100px;
+    width: 9vw;
     border: 3px solid black;
-    border-radius: 80px;
+    border-radius: 50%;
+    margin-left: 9vw;
+    margin-bottom: 4vh;
+    margin-top: 2vh;
 
+}
+
+.people-names {
+    font-size: x-large;
+    padding-left: 10vw;
+    padding-bottom: 5vh;
+}
+
+p.people-text {
+    text-align: center;
+    padding-left: 2vw;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
 }
