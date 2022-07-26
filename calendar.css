@@ -19,6 +19,7 @@
     height: 20vh;
     text-align: left;
     border-bottom: 3px solid silver;
+    display: flex;
 
 }
 
@@ -132,3 +133,27 @@ p.people-text {
     text-transform: capitalize;
     font-weight: bold;
 }
+
+.disappear{
+    padding-left:2vw;
+}
+
+.arrows{
+
+    display: flex;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.arrowL {
+
+    font-size: 70px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.arrowR{
+    font-size: 70px;
+    font-weight: bold;
+    padding-left: 20%;
+}
+
