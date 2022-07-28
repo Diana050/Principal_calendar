@@ -10,17 +10,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
+<body onload="thisMonth()">
 <div class="container">
     <ul>
         <li>
             <div class="box month-box">
-                <h1 id="month" class="month">July </h1><h1>2022</h1>
                 <div class="arrows">
-                <button class="arrowL">&#8617;</button>
-                <button id="arrowR" class="arrowR">&#8618;</button>
+                <p id="arrowL" class="arrowL">&#8617;</p>
+                <p id="arrowR" class="arrowR">&#8618;</p>
                 </div>
-
+                <h1 id="month" class="month"></h1>
             </div>
         </li>
 
@@ -28,61 +27,77 @@
             <div class="box calendar-box">
                 <table class="center">
 
+                    <th><p>SUN</p></th>
                     <th><p>MON</p></th>
                     <th><p>TUE</p></th>
                     <th><p>WED</p></th>
                     <th><p>THU</p></th>
                     <th><p>FRI</p></th>
                     <th><p>SAT</p></th>
-                    <th><p>SUN</p></th>
 
-                    <tr class="day">
-                        <td data-date="1">1</td>
-                        <td data-date="2">2</td>
-                        <td data-date="3">3</td>
-                        <td data-date="4">4</td>
-                        <td data-date="5">5</td>
-                        <td data-date="6">6</td>
-                        <td data-date="7">7</td>
+
+                    <tr >
+
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
                     </tr>
-                    <tr class="day">
-                        <td class="empty" data-date="8">8</td>
-                        <td class="empty" data-date="9">9</td>
-                        <td class="empty" data-date="10">10</td>
-                        <td class="empty" data-date="11">11</td>
-                        <td class="empty" data-date="12">12</td>
-                        <td class="empty" data-date="13">13</td>
-                        <td class="empty" data-date="14">14</td>
+                    <tr >
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+
                     </tr>
-                    <tr class="day">
-                        <td data-date="15">15</td>
-                        <td data-date="16">16</td>
-                        <td data-date="17">17</td>
-                        <td data-date="18">18</td>
-                        <td data-date="19">19</td>
-                        <td data-date="20">20</td>
-                        <td data-date="21">21</td>
+                    <tr>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
                     </tr>
-                    <tr class="day">
-                        <td class="empty" data-date="22">22</td>
-                        <td class="empty" data-date="23">23</td>
-                        <td class="empty" data-date="24">24</td>
-                        <td class="empty" data-date="25">25</td>
-                        <td class="empty" data-date="26">26</td>
-                        <td class="empty" data-date="27">27</td>
-                        <td class="empty" data-date="28">28</td>
+                    <tr >
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
                     </tr>
-                    <tr class="day">
-                        <td  data-date="29" >29</td>
-                        <td data-date="30" >30</td>
-                        <td data-date="31">31</td>
+                    <tr >
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                        <td class="purple day"></td>
+                    </tr>
+                    <tr>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
+                        <td class="empty day"></td>
                     </tr>
                 </table>
             </div>
         </li>
     </ul>
     <div class="box  people-box vl">
-        <p class="people-text" id="people">people</p>
+        <p class="people-text" id="people-text">people</p>
         <p id="disappear" class="disappear">there is no schedule fo today</p>
        <ul class="ul-people">
 
